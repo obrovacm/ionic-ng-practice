@@ -27,6 +27,13 @@ export class PlacesService {
       "https://upload.wikimedia.org/wikipedia/commons/0/01/San_Francisco_with_two_bridges_and_the_fog.jpg",
       99.99
     ),
+    new Place(
+      "p4",
+      "Ticking home",
+      "It's time for Novi Sad!",
+      "https://upload.wikimedia.org/wikipedia/commons/3/32/Petrovaradin_Clock_Tower%2C_Novi_Sad.jpg",
+      22.01
+    ),
   ];
 
   get places() {
