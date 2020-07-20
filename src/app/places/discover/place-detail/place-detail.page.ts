@@ -14,6 +14,7 @@ export class PlaceDetailPage implements OnInit {
 
   onBookPlace() {
     // this.router.navigateByUrl("/places/tabs/discover");
+    // nav controller is Ionic's improvement of Angular's router
     this.navCtrl.navigateBack("/places/tabs/discover");
   }
 }
