@@ -1,0 +1,11 @@
+.offer-details {
+  display: flex;
+  align-items: center;
+
+  & > * {
+    margin-left: 0.5em;
+  }
+  & :first-child {
+    margin-left: 0;
+  }
+}
