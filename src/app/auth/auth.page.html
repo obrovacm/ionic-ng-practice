@@ -14,8 +14,16 @@
       <ion-label position="floating">password</ion-label>
       <ion-input></ion-input>
     </ion-item>
-    <ion-button color="primary" class="ion-margin-top" (click)="onLogin()"
-      >Login</ion-button
+    <!-- <div class="ion-text-center ion-padding">
+      <ion-spinner color="primary"  *ngIf="isLoading"></ion-spinner>
+    </div> -->
+    <!-- *ngIf="!isLoading" -->
+    <ion-button
+      color="primary"
+      class="ion-margin-top"
+      (click)="onLogin()"
     >
+      Login
+    </ion-button>
   </div>
 </ion-content>
