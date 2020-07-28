@@ -28,3 +28,7 @@
 ion-title {
   text-transform: capitalize;
 }
+
+.ion-invalid.ion-touched ion-label {
+  color: var(--ion-color-danger);
+}
