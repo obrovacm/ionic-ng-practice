@@ -14,7 +14,7 @@ export class CreateBookingComponent implements OnInit {
 
   ngOnInit() {}
 
-  onBookPlace() {
+  onSubmit() {
     this.modalCtrl.dismiss({ message: "This is booked!" }, "confirm");
   }
 
